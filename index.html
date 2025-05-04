@@ -93,7 +93,7 @@
       resultEl.innerHTML = `⚠️ Warning: You have stayed ${totalDays} days in the past 18 months. This exceeds the 12-month (365 days) limit.`;
       resultEl.className = 'warning';
     } else {
-      resultEl.innerHTML = `✅ Total days stayed in the last 18 months: ${totalDays} (within the 12-month limit).`;
+      resultEl.innerHTML = `✅ Total days (until today) stayed in the last 18 months: ${totalDays} (within the 12-month limit).`;
       resultEl.className = 'success';
     }
   }
